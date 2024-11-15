@@ -8,7 +8,7 @@ export interface Album {
 export const albums: Album[] = [
   {
     title: "Flight b741",
-    releaseDate: "2024-8-9",
+    releaseDate: "2024-08-09",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/9/9a/FlightB741.jpg",
     description: "This album marks a return to the band's blues rock and boogie sound."
   },
@@ -44,25 +44,25 @@ export const albums: Album[] = [
   },
   {
     title: "Omnium Gatherum",
-    releaseDate: "2022-4-22",
+    releaseDate: "2022-04-22",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/9/90/King_Gizzard_%26_the_Lizard_Wizard_-_Omnium_Gatherum.png",
     description: "Features music of numerous genres, including psychedelia, progressive rock, heavy metal and synth-pop, as well as the band's first experiments with hip hop."
   },
   {
     title: "Made in Timeland",
-    releaseDate: "2022-3-5",
+    releaseDate: "2022-03-05",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/a/a2/Made_in_Timeland_cover.jpg",
     description: "Two fifteen-minute-long tracks, each taking one side of the record."
   },
   {
     title: "Butterfly 3000",
-    releaseDate: "2021-6-11",
+    releaseDate: "2021-06-11",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/1/1a/Butterfly_3000_cover.png",
     description: "A melodic synth-pop inspired leap into the unknown."
   },
   {
     title: "L.W.",
-    releaseDate: "2021-2-26",
+    releaseDate: "2021-02-26",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/9/93/LW_album_cover.png",
     description: "Companion album to K.G, and a continuation of microtonal themes first featured in Flying Microtonal Banana."
   },
@@ -74,13 +74,13 @@ export const albums: Album[] = [
   },
   {
     title: "Infest the Rats' Nest",
-    releaseDate: "2019-8-16",
+    releaseDate: "2019-08-16",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/2/2e/King_Gizzard_%26_the_Lizard_Wizard_-_Infest_the_Rats%27_Nest.png",
     description: "A heavy metal and thrash metal style touching on environmental themes such as climate change and ecological disaster through a cli-fi narrative involving space colonisation."
   },
   {
     title: "Fishing for Fishies",
-    releaseDate: "2019-4-26",
+    releaseDate: "2019-04-26",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/3/33/King_Gizzard_and_the_Lizard_Wizard_-_Fishing_for_Fishies.png",
     description: "A blues boogie rock album."
   },
@@ -98,25 +98,25 @@ export const albums: Album[] = [
   },
   {
     title: "Sketches of Brunswick East",
-    releaseDate: "2017-8-18",
+    releaseDate: "2017-08-18",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/3/3f/King_Gizzard_%26_the_Lizard_Wizard_-_Sketches_of_Brunswick_East_%282017%29_cover_art.jpg",
     description: "A jazz-based collaboration with Mild High Club."
   },
   {
     title: "Murder of the Universe",
-    releaseDate: "2017-6-123",
+    releaseDate: "2017-06-123",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/b/be/Murder_of_the_Universe.png",
     description: "A concept album split into three separate stories, called suites, each containing elements of spoken word to carry a narrative."
   },
   {
     title: "Flying Microtonal Banana",
-    releaseDate: "2017-2-24",
+    releaseDate: "2017-02-24",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/4/49/Flying_Microtonal_Banana.jpg",
     description: "The band's first exploration of microtonal music, utilising custom-built instruments."
   },
   {
     title: "Nonagon Infinity",
-    releaseDate: "2016-4-29",
+    releaseDate: "2016-04-29",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/2/29/Nonagon_Infinity.png",
     description: "Designed to play as an infinite loop where each song segues into the next and the last song segues into the first."
   },
@@ -128,7 +128,7 @@ export const albums: Album[] = [
   },
   {
     title: "Quarters!",
-    releaseDate: "2015-5-1",
+    releaseDate: "2015-05-01",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/a/ab/Quarters_King_Gizzard.jpeg",
     description: "A psych-pop and jazz rock album."
   },
@@ -140,7 +140,7 @@ export const albums: Album[] = [
   },
   {
     title: "Oddments",
-    releaseDate: "2014-3-7",
+    releaseDate: "2014-03-07",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/3/32/Oddments_King_Gizzard.jpg",
     description: "Psych rock album."
   },
@@ -152,13 +152,13 @@ export const albums: Album[] = [
   },
   {
     title: "Eyes Like the Sky",
-    releaseDate: "2013-2-22",
+    releaseDate: "2013-02-22",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/4/4c/Eyes_Like_The_Sky_King_Gizzard.jpg",
     description: "A cult western audio book, the album is narrated and written by Broderick Smith, the frontman for the 1970s Australian rock group The Dingoes."
   },
   {
     title: "12 Bar Bruise",
-    releaseDate: "2012-10-7",
+    releaseDate: "2012-10-07",
     coverUrl: "https://upload.wikimedia.org/wikipedia/en/9/9f/12_Bar_Bruise_King_Gizzard.jpg",
     description: "The album was self-recorded by the band, and several tracks used unconventional recording methods."
   }
