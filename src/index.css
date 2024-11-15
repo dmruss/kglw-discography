@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@layer base {
+  body {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: 'Press Start 2P', system-ui;
+  }
+}
+
+@layer components {
+  .space-text {
+    text-shadow: 0 0 5px #00ff00,
+                 0 0 10px #00ff00;
+    animation: pulse 2s infinite;
+  }
+
+  .space-border {
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 5px #00ff00,
+                inset 0 0 5px #00ff00;
+  }
+
+  .pixel-grid {
+    background-image: 
+      linear-gradient(#001100 1px, transparent 1px),
+      linear-gradient(90deg, #001100 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  @keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+  }
+
+  .space-invader {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #00ff00;
+    box-shadow: 
+      0 8px #00ff00, 0 16px #00ff00,
+      8px 0 #00ff00, 8px 8px #00ff00, 8px 16px #00ff00,
+      16px 0 #00ff00, 16px 8px #00ff00, 16px 16px #00ff00;
+  }
+
+  .crt-overlay::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 255, 0, 0.05),
+      rgba(0, 255, 0, 0.05) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    pointer-events: none;
+    z-index: 999;
+  }
+}
